@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_ContraintEnd_toStartof="@+id/TPFL"
+        android:layout_ContraintTop_toTopOf="parent"
+        android:layout_contrainstStart_toStartof="parent"
+        android:layout_margin="10dp"
+        android:text="TPFL" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:text="TO"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_contrainstStart_toStartof="parent"
+        android:layout_ContraintEnd_toStartof="@+id/TPFL"
+        android:layout_ContraintTop_toTop0f="parent"/>
+
+    <Button
+        android:id="@+id/btn3"
+        android:text="PPLG"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_contrainstStart_toStartof="parent"
+        android:layout_ContraintEnd_toStartof="@+id/TPFL"
+        android:layout_ContraintTop_toTop0f="parent"/>
+
+    <Button
+        android:id="@+id/btn4"
+        android:text="KULINER"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_contrainstStart_toStartof="parent"
+        android:layout_ContraintEnd_toStartof="@+id/TPFL"
+        android:layout_ContraintTop_toTop0f="parent"/>
+
+    <Button
+        android:id="@+id/btn5"
+        android:text="BUSANA"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_contrainstStart_toStartof="parent"
+        android:layout_ContraintEnd_toStartof="@+id/TPFL"
+        android:layout_ContraintTop_toTop0f="parent"/>
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_constraintEnd_toStartof="parent"
+        android:layout_constraintBottom_toBottomtof="parent"
+        android:layout_constraintStart_toStartof="parent" />
+
+</LinearLayout>
